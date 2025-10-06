@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF--8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Payment Reminder Tool</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom primary color definition to match component styles */
+    .bg-primary-600 { background-color: #4f46e5; }
+    .hover\:bg-primary-700:hover { background-color: #4338ca; }
+    .focus\:ring-primary-500:focus { --tw-ring-color: #6366f1; }
+    .border-primary-500 { border-color: #6366f1; }
+    .text-primary-600 { color: #4f46e5; }
+    .text-primary-700 { color: #4338ca; }
+    .hover\:text-primary-800:hover { color: #3730a3; }
+    .bg-primary-100 { background-color: #e0e7ff; }
+    .hover\:bg-primary-200:hover { background-color: #c7d2fe; }
+    .bg-primary-200 { background-color: #c7d2fe; }
+    .hover\:bg-primary-300:hover { background-color: #a5b4fc; }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "date-fns": "https://aistudiocdn.com/date-fns@^4.1.0",
+    "firebase/app": "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js",
+    "firebase/auth": "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js",
+    "firebase/firestore": "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js",
+    "firebase/": "https://aistudiocdn.com/firebase@^12.3.0/"
+  }
+}
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-50">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
